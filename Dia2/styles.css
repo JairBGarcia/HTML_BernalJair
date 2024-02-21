@@ -3,7 +3,7 @@ body, html {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
-    background-color: #a6dcef; 
+    background-color: #a6dcef; /* Fondo azul pastel */
 }
 
 .container {
@@ -12,12 +12,11 @@ body, html {
     max-width: 900px;
     margin: 50px auto;
     padding: 20px;
-    background-color: rgba(255, 255, 255, 0.9); 
+    background-color: rgba(255, 255, 255, 0.9); /* Fondo semi-transparente blanco */
     border-radius: 10px;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); 
-    overflow: auto; 
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); /* Sombra suave */
+    overflow: auto; /* Hacemos que el contenido sea desplazable si es necesario */
 }
-
 
 h1, h2 {
     color: #333; 
