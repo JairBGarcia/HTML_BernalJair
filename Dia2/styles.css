@@ -3,7 +3,7 @@ body, html {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
-    background-color: #a6dcef; /* Fondo azul pastel */
+    background-color: #a6dcef; 
 }
 
 .container {
@@ -12,38 +12,38 @@ body, html {
     max-width: 900px;
     margin: 50px auto;
     padding: 20px;
-    background-color: rgba(255, 255, 255, 0.9); /* Fondo semi-transparente blanco */
+    background-color: rgba(255, 255, 255, 0.9); 
     border-radius: 10px;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); /* Sombra suave */
-    overflow: auto; /* Hacemos que el contenido sea desplazable si es necesario */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); 
+    overflow: auto; 
 }
 
-/* Estilos de encabezados */
+
 h1, h2 {
-    color: #333; /* Color de texto oscuro */
+    color: #333; 
     text-align: center;
     text-transform: uppercase;
     letter-spacing: 2px;
     margin-bottom: 20px;
 }
 
-/* Estilos de imágenes */
+
 .imagenes {
     text-align: center;
-    margin-top: 20px; /* Añadimos margen superior para separar del contenido anterior */
-    width: 90%; /* Ancho del contenedor ajustado */
-    max-width: 900px; /* Ancho máximo del contenedor */
-    margin: 0 auto; /* Centramos el contenedor */
+    margin-top: 20px; 
+    width: 90%; 
+    max-width: 900px; 
+    margin: 0 auto; 
 }
 
 .imagenes a {
-    display: inline-block; /* Mostrar elementos en línea */
+    display: inline-block; 
     margin: 10px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease;
-    width: 30%; /* Ancho del elemento ajustado para mostrar tres imágenes horizontalmente */
-    max-width: 300px; /* Ancho máximo para cada imagen */
+    width: 30%;
+    max-width: 300px; 
 }
 
 .imagenes a:hover {
@@ -52,18 +52,18 @@ h1, h2 {
 
 
 
-/* Estilos de contenido */
+
 .container > div {
     margin-top: 20px;
     padding: 20px;
-    border: 1px solid #fff; /* Borde blanco */
+    border: 1px solid #fff;
     border-radius: 10px;
-    background-color: rgba(255, 255, 255, 0.9); /* Fondo semi-transparente blanco */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    background-color: rgba(255, 255, 255, 0.9); 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .container > div p {
-    color: #333; /* Color de texto oscuro */
+    color: #333; 
     line-height: 1.6;
     text-align: justify;
 }
