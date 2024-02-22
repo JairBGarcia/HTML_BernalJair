@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>T amo</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+
+    <form action="resultado.html" method="GET">
+        <h2>Trabajo Dia4</h2>
+
+        <div>
+            <label for="fname">Nombres:</label><br>
+            <input type="text" id="fname" name="fname" value="" required><br>
+
+            <label for="lname">Apellidos:</label><br>
+            <input type="text" id="lname" name="lname" value="" required><br><br>
+
+        </div>
+
+        <div>
+            <label for="sex">Sexo:</label><br>
+            <select id="sex" name="sex" required>
+                <option value="male">Masculino</option>
+                <option value="female">Femenino</option>
+            </select><br><br>
+        </div>
+
+        <div>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" value="" required><br><br>
+        </div>
+
+        <div>
+            <label for="poblacion">Poblacion:</label>
+            <select name="poblacion" id="poblacion">
+                <option value="buca"></option>
+                <option value="buca">Bucaramanga</option>
+                <option value="giron">Giron</option>
+                <option value="flori">Floridablanca</option>
+                <option value="piede">Piedecuesta</option>
+            </select>
+
+        </div>
+
+        <div>
+            <label for="descripcion">Descripcion</label>
+            <textarea name="area" id="" cols="50" rows="4"></textarea>
+        </div>
+
+        <div>
+            <input type="checkbox" id="condiciones" name="condiciones" value="accepted" checked>
+            <label for="condiciones">Deseo recibir informacion sobre novedades y ofertas</label><br><br>
+            <input type="checkbox" id="condiciones" name="condiciones" value="accepted" required>
+            <label for="condiciones">Declaro que he leído y acepto las condiciones generales del programa y la normativa de protección de datos</label><br><br>
+            <input type="submit" value="Submit" >
+        </div>
+
+    </form>
+</body>
+
+</html>
