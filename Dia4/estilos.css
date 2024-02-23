@@ -1,58 +1,58 @@
 body {
-    font-family: 'Arial Black', sans-serif;
-    background-color: #007bff; /* Azul */
-    margin: 0;
-    padding: 0;
-    color: #fff;
+    font-family: 'Arial Black', sans-serif; /* Define la fuente utilizada para el texto dentro del cuerpo del documento */
+    background-color: #007bff; /* Establece el color de fondo del cuerpo del documento en un tono azul  */
+    margin: 0; /* Elimina los márgenes externos predeterminados del cuerpo */
+    padding: 0; /* Elimina el relleno interno predeterminado del cuerpo */
+    color: #fff; /* Establece el color del texto en blanco */
 }
 
 form {
-    width: 60%;
-    margin: 50px auto;
-    padding: 20px;
-    background-color: #ffcc00; /* Amarillo */
-    border-radius: 20px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    width: 60%; /* Establece el ancho del formulario al 60% del contenedor principal */ 
+    margin: 50px auto; /* Centra el formulario horizontalmente con un margen superior e inferior de 50p */
+    padding: 20px; /* Agrega un relleno interno de 20px al formulario */
+    background-color: #ffcc00; /* Establece el color de fondo del formulario en amarillo */
+    border-radius: 20px; /* Agrega esquinas redondeadas al formulario */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /*  Agrega una sombra suave alrededor del formulario para darle un efecto de elevación */
 }
 
 h2 {
-    text-align: center;
-    color: #fd0808;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    margin-bottom: 20px;
+    text-align: center; /* Centra el texto del encabezado */
+    color: #fd0808; /* Establece el color del texto en rojo */
+    text-transform: uppercase; /* Convierte el texto a mayúsculas */
+    letter-spacing: 2px; /* Aumenta el espacio entre las letras del texto en 2px */
+    margin-bottom: 20px; /* Agrega un margen inferior de 20px al encabezado */
 }
 
 label {
-    display: block;
-    margin-bottom: 5px;
-    font-weight: bold;
-    color: #333;
+    display: block; /* Define cómo se muestra el elemento. En este caso, se muestra como un bloque */
+    margin-bottom: 5px; /* Agrega un margen inferior de 5px a cada etiqueta */
+    font-weight: bold; /* Establece el grosor de la fuente como negrita */
+    color: #333; /* Establece el color del texto en un tono oscuro de gris */
 }
 
-input[type="text"],
-input[type="email"],
-select,
-textarea {
-    width: calc(100% - 30px); /* Ancho total menos 20px de margen */
-    padding: 8px;
-    margin: 0 10px; /* Margen izquierdo y derecho de 10px */
-    margin-bottom: 10px;
-    border: 2px solid #007bff; /* Azul */
-    border-radius: 5px;
-    font-weight: bold;
+input[type="text"], /* Establece el estilo para los campos de entrada de texto, correo electrónico, select y textarea en el documento */
+input[type="email"], 
+select, 
+textarea { 
+    width: calc(100% - 30px); /* Establece el ancho de estos elementos al 100% menos 30px, lo que les permite ajustarse al ancho del contenedor */
+    padding: 8px; /* Agrega un relleno de 8px dentro de estos elementos */
+    margin: 0 10px; /* Agrega un margen de 0 a cada lado y 10px arriba y abajo de estos elementos */
+    margin-bottom: 10px; /* Agrega un margen inferior de 10px a cada uno de estos elementos */
+    border: 2px solid #007bff; /* Establece un borde sólido de 2px de ancho en azul */
+    border-radius: 5px; /* Agrega esquinas redondeadas a estos elementos */ 
+    font-weight: bold; /* Establece el grosor de la fuente como negrita para estos elementos */ 
 }
 
 input[type="submit"] {
-    width: 100%;
-    padding: 10px;
-    background-color: #007bff; /* Azul */
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    font-weight: bold;
-    margin-top: 20px; /* Añadido margen arriba */
+    width: 100%; /* Establece el ancho del botón de envío al 100% del ancho de su contenedor. */
+    padding: 10px; /* Agrega un relleno interno de 10 píxeles alrededor del contenido del botón, lo que aumenta su área de clic */
+    background-color: #007bff; /* Define el color de fondo del botón como azul */
+    color: #fff; /* Establece el color del texto del botón en blanco, lo que hace que el texto sea visible sobre el fondo azul */
+    border: none; /* Elimina el borde del botón, lo que lo hace aparecer sin un borde visible */
+    border-radius: 5px; /* Agrega esquinas redondeadas al botón con un radio de curvatura de 5 píxeles, lo que proporciona un aspecto más suave */
+    cursor: pointer; /* Cambia el cursor del mouse cuando está sobre el botón a un puntero, indicando que es interactivo */
+    font-weight: bold; /* Establece el peso de la fuente del texto del botón como negrita, lo que hace que el texto sea más llamativo */
+    margin-top: 20px; /* Agrega un margen superior de 20 píxeles al botón, lo que lo separa de otros elementos que puedan estar encima de él en la página */
 }
 
 input[type="submit"]:hover {
