@@ -11,6 +11,7 @@
 }
 
 .imagen{
+    position: absolute;
     top: 0px;
     left: 0px;
     width: 1920px;
@@ -19,3 +20,361 @@
     opacity: 0.35;
     position: absolute;
 }
+
+.LogoPrime{
+        position: absolute;
+        top: 227px;
+        left: 682px;
+        width: 556px;
+        height: 313px;
+        background: transparent url('./images/LogoPrimeE2.png') 0% 0% no-repeat padding-box;
+        opacity: 1;
+    
+}
+
+.Buscador{
+    position: absolute;
+    top: 37px;
+    left: 63px;
+    width: 36px;
+    height: 36px;
+    background: transparent url('./images/Icon\ awesome-search.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.Grupo1{
+    position: absolute;
+    top: 1106px;
+    left: 64px;
+    width: 1792px;
+    height: 567px;
+    background: transparent url('./images/Grupo1.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.Rectangulo2{
+    position: absolute;
+    top: 1717px;
+    left: 64px;
+    width: 1792px;
+    height: 724px;
+    background: transparent url('./images/Rectangulo2.png') 0% 0% no-repeat padding-box;
+    border-radius: 108px;
+    opacity: 1;
+}
+
+.Rectangulo3{
+    position: absolute;
+    top: 2467px;
+    left: 64px;
+    width: 1792px;
+    height: 567px;
+    background: transparent url('./images/Rectangulo3.png') 0% 0% no-repeat padding-box;
+    border-radius: 108px;
+    opacity: 1;
+}
+
+.peli1{
+    position: absolute;
+    top: 1896px;
+    left: 477px;
+    width: 181px;
+    height: 309px;
+    background: transparent url('./images/peli1.png') 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    opacity: 1;
+    }
+
+.peli2{
+    position: absolute;
+    top: 1896px;
+    left: 670px;
+    width: 181px;
+    height: 309px;
+    background: transparent url('./images/peli2.png') 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    opacity: 1;
+    }
+
+.peli3{
+    position: absolute;
+    top: 1896px;
+    left: 863px;
+    width: 180px;
+    height: 309px;
+    background: transparent url('./images/peli3.png') 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    opacity: 1;
+    }
+
+.peli4{
+    position: absolute;
+    top: 1896px;
+    left: 1055px;
+    width: 181px;
+    height: 309px;
+    background: transparent url('./images/peli4.png') 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    opacity: 1;
+    }
+
+.peli5{
+    position: absolute;
+    top: 1896px;
+    left: 1248px;
+    width: 181px;
+    height: 309px;
+    background: transparent url('./images/peli5.png') 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    opacity: 1;
+}
+
+.mac{
+    position: absolute;
+    top: 3440px;
+    left: 685px;
+    width: 584px;
+    height: 534px;
+    background: transparent url('./images/mac.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+
+}
+
+.iphone{
+    position: absolute;
+    top: 3606px;
+    left: 386px;
+    width: 256px;
+    height: 219px;
+    background: transparent url('./images/iphone.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+
+}
+
+.pc{
+    position: absolute;
+    top: 3587px;
+    left: 1261px;
+    width: 271px;
+    height: 238px;
+    background: transparent url('./images/pc.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+
+}
+
+.flechaIzq{
+    position: absolute;
+    top: 3689px;
+    left: 305px;
+    width: 19px;
+    height: 27px;
+    transform: matrix(0.03, 1, -1, 0.03, 0, 0);
+    background: transparent url('./images/Flecha.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+
+}
+
+.flechaDer{
+    position: absolute;
+    top: 3702px;
+    left: 1575px;
+    width: 18px;
+    height: 26px;
+    transform: matrix(0, -1, 1, 0, 0, 0);
+    background: transparent url('./images/Flecha.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+
+}
+
+.cace{
+    position: absolute;
+    top: 3954px;
+    left: 780px;
+    width: 430px;
+    height: 241px;
+    background: transparent url('./images/cace.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.legal{
+    position: absolute;
+    top: 4088px;
+    left: 543px;
+    width: 831px;
+    height: 25px;
+    background: transparent url('./images/legal.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.login{
+    position: absolute;
+    top: 30px;
+    left: 1695px;
+    width: 205px;
+    height: 54px;
+    background: transparent url('./images/login.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.loginTexto {
+    position: absolute;
+    top: 36px;
+    left: 1795px;
+    transform: translate(-50%, -50%);
+    color: #000000;
+    font-size: 20px;
+    font-family: 'Amazon Ember light';
+    text-align: center;
+    pointer-events: none; /* Para evitar que el texto sea clickeable */
+}
+
+.singup{
+    position: absolute;
+    top: 755px;
+    left: 730px;
+    width: 458px;
+    height: 104px;
+    background: transparent url('./images/singup.png') 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    border-radius: 52px;
+    opacity: 1;
+}
+.singuptext{
+    position: absolute;
+    top: 787px; /* Centrar verticalmente en relación con el contenedor .singup */
+    left: 50%; /* Centrar horizontalmente en relación con el contenedor .singup */
+    transform: translate(-50%, -50%);
+    color: #000000;
+    font-size: 20px;
+    font-family: 'Amazon Ember light';
+    text-align: center;
+    pointer-events: none; /* Para evitar que el texto sea clickeable */
+}
+
+@font-face {
+    font-family: 'Amazon Ember bold';
+    src: url('./fuentes/AmazonEmber_Bd.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Amazon Ember light';
+    src: url('./fuentes/AmazonEmber_Lt.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Myriad Pro Italic';
+    src: url('./fuentes/Myriad\ Pro\ Italic.ttf') format('truetype');
+}
+
+.Texto1{
+    position: absolute;
+    color: #ffffff;
+    top: 470px;
+    left: 399px;
+    width: 1151px;
+    height: 60px;
+    font-size: 60px;
+    font-family: 'Amazon Ember bold';
+    font-weight: 900;
+    text-align: left;
+
+}
+
+.texto2{
+    position: absolute;
+    color: #ffffff;
+    top: 600px;
+    left: 380px;
+    height: 30px;
+    font-size: 30px;
+    font-family: 'Amazon Ember light';
+    text-align: center;
+    opacity: 1;
+}
+
+.texto3{
+    position: absolute;
+    color: #ffffff;
+    top: 1730px;
+    left: 135px;
+    width: 1664px;
+    height: 60px;
+    font-size: 60px;
+    font-family: 'Amazon Ember bold';
+    text-align: center;
+    opacity: 1;
+}
+
+.textocuadro2{
+    position: absolute;
+    color: #ffffff;
+    top: 2240px;
+    left: 207px;
+    width: 1492px;
+    height: 110px;
+    font-size: 45px;
+    font-family: 'Amazon Ember light';
+    text-align: center;
+    opacity: 1;
+
+}
+
+.icon{
+    position: absolute;
+    top: 2650px;
+    left: 876px;
+    width: 169px;
+    height: 169px;
+    background: transparent url('./images/icon.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.delax{
+    position: absolute;
+    color: #ffffff;
+    top: 2500px;
+    left: 560px;
+    width: 800px;
+    height: 60px;
+    font-size: 60px;
+    font-family: 'Amazon Ember bold';
+    text-align: center;
+    opacity: 1;
+}
+
+.textocuadro3{
+    position: absolute;
+    color: #ffffff;
+    top: 2840px;
+    left: 269px;
+    width: 1382px;
+    height: 88px;
+    font-size: 40px;
+    font-family: 'Amazon Ember light';
+    text-align: center;
+    opacity: 1;
+}
+
+.compatible{
+    position: absolute;
+    color: #ffffff;
+    top: 2990px;
+    left: 418px;
+    width: 1118px;
+    height: 125px;
+    font-size: 125px;
+    font-family: 'Amazon Ember light';
+    text-align: center;
+    opacity: 1;
+}
+
+.textocuadro4{
+    position: absolute;
+    color: #ffffff;
+    top: 3260px;
+    left: 181px;
+    width: 1544px;
+    height: 99px;
+    font-size: 45px;
+    font-family: 'Amazon Ember light';
+    text-align: center;
+    opacity: 1;
+}
+
