@@ -168,7 +168,7 @@
     left: 305px;
     width: 19px;
     height: 27px;
-    transform: matrix(0.03, 1, -1, 0.03, 0, 0);
+    transform: matrix(0.03, 1, -1, 0.03, 0, 0)rotate(270deg);
     background: transparent url('./images/Flecha.png') 0% 0% no-repeat padding-box;
     opacity: 1;
 
@@ -180,7 +180,7 @@
     left: 1575px;
     width: 18px;
     height: 26px;
-    transform: matrix(0, -1, 1, 0, 0, 0);
+    transform: matrix(0, -1, 1, 0, 0, 0)rotate(270deg);
     background: transparent url('./images/Flecha.png') 0% 0% no-repeat padding-box;
     opacity: 1;
 
