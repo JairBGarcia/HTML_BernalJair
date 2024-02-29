@@ -20,14 +20,13 @@
     left: 1820px;
     width: 110px;
     height: 1080px;
-    background: transparent url('./images/Rectangle\ 1.png') 0% 0% no-repeat padding-box;
     border-radius: 0px 8px 8px 0px;
     opacity: 1;
 }
 
 .logo{
     position: absolute;
-    left: 143px;
+    left: 1500px;
     width: 196px;
     height: 44px;
     top: 34px;
@@ -49,6 +48,8 @@
     height: 44px;
     
 }
+
+
 .saldo{
     position: absolute;
     top: 40px;
@@ -118,17 +119,27 @@
     background: transparent url('./images/Rectangle\ 2.png') 0% 0% no-repeat padding-box;
     border-radius: 8px;
     opacity: 1;
+    z-index: -1;
 }
 
-.logoamarillo{
+.logometrolain{
     position: absolute;
-    top: 876px;
-    left: 1615px;
-    width: 129px;
-    height: 29px;
-    background: transparent url('img/1200px-Metrolínea_logo.svg.png') 0% 0% no-repeat padding-box;
-    opacity: 1;
+    left: 143px;
+    width: 196px;
+    height: 44px;
+    top: 34px;
+    left: 43px;
 
+}
+
+.indexito2{
+    position: absolute;
+    top: 40px;
+    right: 650px;
+    font-size: 36px;
+    font-family: 'Opensans regular';
+    text-decoration: none;
+    color: black;
 }
 
 .textoamarillo{
@@ -141,3 +152,276 @@
     font-family: 'Opensans Semibold';
     text-align: left;
 }
+
+.column {
+    color: #606060;
+    position: absolute;
+    display: block;
+    left: 1866px;
+    top: 400px;
+    bottom: 250px;
+    font-size: 25px;
+    width: 26px;
+    height: 200px;
+    line-height: 46px;
+    scroll-behavior: smooth;
+    overflow: auto;
+}
+
+.column::-webkit-scrollbar{
+    display: none;}
+
+
+
+.textocantidad{
+    display: block;
+    text-align: left;
+    position: absolute;
+    font-family: "Open Sans";
+    font-size: 20px;
+    color: #FFFFFF;
+    right: 13px;
+    left: 13px;
+    top: 149px;
+    opacity: 1;
+    border: none;
+    width: 84px;
+    height: 27px;
+}
+
+
+
+.rectangulo1{
+    position: absolute;
+    top: 0px;
+    left: 1790px;
+    width: px;
+    height: 1080px;
+    background: transparent url('./images/Rectangle\ 1.png') 0% 0% no-repeat padding-box;
+    border-radius: 0px 8px 8px 0px;
+    opacity: 1;
+    z-index: -1;
+}
+
+.saldoEsc{
+    position: absolute;
+    font-size: 35px;
+    font-family: 'Opensans Semibold';
+    top: 715px;
+    left: 750px;
+}
+.fondoVerde{
+    position: absolute;
+    background-color: #D5FF43;
+    top: 860px;
+    right: 250px;
+    width: 220px;
+    height: 170px;
+    border-radius: 8px;
+}
+.logochiquito{
+    position:absolute;
+    width: 180px;
+    height: auto;
+    top: 910px;
+    right: 272px;
+}
+.carrito2{
+    position: absolute;
+    top: 930px;
+    right: 284px;
+    font-size: 35px;
+    font-family: 'Opensans Semibold';
+    cursor: pointer;
+}
+.flechaArriba{
+    position: absolute;
+    top: 30px;
+    right: 20px;
+    width: 40px;
+    height: auto;
+    cursor: pointer;
+}
+.cantidad{
+    position: absolute;
+    top: 200px;
+    right: 30px;
+    color: white;
+    font-size: 25px;
+    font-family: 'Opensans regular';
+    cursor: pointer;
+}
+
+#nospi{
+    position: absolute;
+    top: 780px;
+    left: 642px;
+    border-radius: 10px;
+    padding: 10px 0px;
+    text-align: center;
+    font-size: 35px;
+    font-family: 'Opensans Semibold';
+}
+
+
+.flechaAbajo{
+    position: absolute;
+    top: 1000px;
+    right: 20px;
+    width: 40px;
+    height: auto;
+    rotate: 180deg;
+    cursor: pointer;
+}
+
+.cantidad2{
+    position: absolute;
+    top: 200px;
+    right: 10px;
+    color: white;
+    font-size: 25px;
+    font-family: 'Opensans regular';
+    cursor: pointer;
+}
+
+.textotarjeta{
+    position: absolute;
+    color: black;
+    top: 510px;
+    left: 460px;
+    font-size: 50px;
+    font-family: 'Opensans Semibold';
+}
+.numerotexto1{
+    position: absolute;
+    top: 400px;
+    right: 5px;
+    color: rgb(146, 146, 146);
+    font-size: 25px;
+    font-family: 'Opensans regular';
+    cursor: pointer;
+}
+
+.numerotexto2{
+    position: absolute;
+    top: 500px;
+    right: 5px;
+    color: rgb(146, 146, 146);
+    font-size: 25px;
+    font-family: 'Opensans regular';
+    cursor: pointer;
+}
+
+.numerotexto3{
+    position: absolute;
+    top: 600px;
+    right: 5px;
+    color: rgb(146, 146, 146);
+    font-size: 25px;
+    font-family: 'Opensans regular';
+    cursor: pointer;
+}
+
+.numerotexto1:hover {
+    color: white;
+}
+
+.numerotexto2:hover {
+    color: white;
+}
+
+.numerotexto3:hover {
+    color: white;
+}
+
+.metrolain{
+    position: absolute;
+    top: 110px;
+    left: 480px;
+    width: 800px;
+    height: auto;
+}
+.saldoactual{
+    position: absolute;
+    color: #000000;
+    top: 600px;
+    left: 670px;
+    font-size: 35px;
+    text-align: center;
+    font-family: 'Opensans Semibold';
+}
+
+.cantidad1{
+    position: absolute;
+    top: 200px;
+    right: 5px;
+    color: white;
+    font-size: 20px;
+    font-family: 'Opensans regular';
+    cursor: pointer;
+}
+
+.numerotexto11{
+    position: absolute;
+    top: 400px;
+    right: 30px;
+    color: rgb(146, 146, 146);
+    font-size: 25px;
+    font-family: 'Opensans regular';
+    cursor: pointer;
+}
+
+.numerotexto22{
+    position: absolute;
+    top: 500px;
+    right: 30px;
+    color: rgb(146, 146, 146);
+    font-size: 25px;
+    font-family: 'Opensans regular';
+    cursor: pointer;
+}
+
+.numerotexto33{
+    position: absolute;
+    top: 600px;
+    right: 30px;
+    color: rgb(146, 146, 146);
+    font-size: 25px;
+    font-family: 'Opensans regular';
+    cursor: pointer;
+}
+
+.numerotexto11:hover {
+    color: white;
+}
+
+.numerotexto22:hover {
+    color: white;
+}
+
+.numerotexto33:hover {
+    color: white;
+}
+
+.flechaAbajo1{
+    position: absolute;
+    top: 1000px;
+    right: 25px;
+    width: 40px;
+    height: auto;
+    rotate: 180deg;
+    cursor: pointer;
+}
+
+.flechaArriba1{
+    position: absolute;
+    top: 30px;
+    right: 25px;
+    width: 40px;
+    height: auto;
+    cursor: pointer;
+}
+
+
+
+
