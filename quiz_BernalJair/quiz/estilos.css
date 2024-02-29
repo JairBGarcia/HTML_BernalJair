@@ -1,0 +1,435 @@
+@font-face{
+    font-family: popins;
+    src: url(https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap);
+}
+
+.white{
+    position: relative;
+    background-color: #1e1d2b;
+    width: 1920px;
+    height: 5500px;
+    font-family: popins;
+    
+}
+
+.food{
+    position: absolute;
+    font-family: popis;
+    color: #ed844d;
+    font-size: 60px;
+    top: 2px;
+    width: 600px;
+    left: 40px;
+    height: 20px;
+}
+
+.barra{
+    position: absolute;
+    font-family: popis;
+    color: white;
+    font-size: 20px;
+    top: 45px;
+    right: -50px;
+    cursor: pointer;
+}
+
+.about{
+    position: absolute;
+    top: 3px;
+    right: -100px;
+}
+
+.service{
+    position: absolute;
+    top: 3px;
+    right: -200px;
+}
+
+.contact{
+    position: absolute;
+    top: 3px;
+    right: -300px;
+}
+
+.home{
+    position: absolute;
+    top: 3px;
+    right: 100px;
+}
+
+.menu{
+    position: absolute;
+    top: 3px;
+    right: 0px;
+}
+
+.homa{
+    position: relative;
+    top: 400px;
+    left: 1450px;
+    width: 600px;
+    height: 600px;
+    border: 1px solid #707070;
+    background: transparent url('./images/home.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.full{
+    position: absolute;
+    color: #ed844d;
+    top: 200px;
+    left: 500px;
+    font-size: 150px;
+}
+
+.most{
+    position: absolute;
+    color: white;
+    top: 450px;
+    left: 500px;
+    font-size: 50px;
+}
+
+.menusito {
+    position: absolute;
+    color: white;
+    top: 800px;
+    left: 500px;
+    font-size: 35px;
+    border-radius: 8px;
+    background-color: #ed844d;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.9);
+    cursor: pointer;
+    padding: 10px; 
+}
+
+
+.menusito:hover{
+    transform: scale(1.05);
+}
+
+.about2{
+    position: absolute;
+    top: 1400px;
+    left: 400px;
+
+}
+
+.textoabout{
+    position: absolute;
+    color: #ed844d;
+    top: 1350px;
+    left: 1300px;
+    font-size: 50px;
+    
+
+}
+
+.textoabout2{
+    position: absolute;
+    color: white;
+    top: 1400px;
+    left: 1300px;
+    font-size: 80px;
+}
+
+.textoabout3{
+    position: absolute;
+    color: white;
+    top: 1660px;
+    left: 1300px;
+    font-size: 40px;
+}
+
+.learn {
+    position: absolute;
+    color: white;
+    top: 1900px;
+    left: 1300px;
+    font-size: 35px;
+    background-color: #ed844d;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
+    cursor: pointer;
+    padding: 10px; 
+}
+
+
+.learn:hover{
+    transform: scale(1.05);
+}
+
+.imagenes {
+    position: absolute;
+    text-align: center;
+    margin-top: 20px; 
+    width: 100%; 
+    max-width: 1000px; 
+    margin: 0 auto;
+    top: 2600px;
+    left: 700px;
+}
+
+.imagenes a {
+    display: inline-block; 
+    margin: 15px;
+    border-radius: 8px;
+    background-color: aliceblue;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+    transition: transform 0.3s ease;
+    width: 50%;
+    max-width: 300px; 
+}
+
+.imagenes a:hover {
+    transform: scale(1.05);
+}
+
+.platica{
+    color: #ed844d;
+}
+
+.foodsito{
+    position: absolute;
+    color: #ed844d;
+    top: 2200px;
+    left: 1100px;
+    font-size: 40px;
+
+}
+
+.fresh{
+    position: absolute;
+    color: white;
+    top: 2350px;
+    left: 960px;
+    font-size: 50px;
+}
+
+.servicito{
+    position: absolute;
+    color: #ed844d;
+    top: 3200px;
+    left: 1100px;
+    font-size: 40px;
+
+}
+
+.provide{
+    position: absolute;
+    color: white;
+    top: 3300px;
+    left: 870px;
+    font-size: 50px;
+}
+
+.imagenes2 {
+    position: absolute;
+    text-align: center;
+    margin-top: 20px; 
+    width: 100%; 
+    max-width: 1000px; 
+    margin: 0 auto;
+    top: 3500px;
+    left: 700px;
+}
+
+.imagenes2 a {
+    display: inline-block; 
+    margin: 15px;
+    transition: transform 0.3s ease;
+    width: 50%;
+    max-width: 300px; 
+}
+
+.imagenes2 a:hover {
+    transform: scale(1.05);
+}
+
+.datico{
+    color: #ed844d;
+    font-size: 40px;
+}
+
+.datico1{
+    position: absolute;
+    text-align: center;
+    top: 3900px;
+    left: 720px;
+    color: white;
+    font-size: 25px;
+}
+.datico2{
+    position: absolute;
+    text-align: center;
+    top: 3900px;
+    left:1060px;
+    color: white;
+    font-size: 25px;
+}
+.datico3{
+    position: absolute;
+    text-align: center;
+    top: 3900px;
+    left: 1400px;
+    color: white;
+    font-size: 25px;
+}
+
+.cuadro {
+    position: absolute;
+    top: 4200px;
+    left: 450px;
+    width: 80%;
+    height: 300px; 
+    border-radius: 10px;
+    background-color: aliceblue;
+    box-shadow: 0 0 100px rgba(0, 0, 0, 0.7);
+}
+
+
+.make{
+    position: absolute;
+    font-size: 50px;
+    top: 5px;
+    left: 530px;
+    text-align: center;
+
+
+}
+
+.learnisito {
+    position: absolute;
+    color: white;
+    font-size: 35px;
+    top: 180px;
+    left: 650px;
+    background-color: #ed844d;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
+    cursor: pointer;
+    padding: 10px; 
+}
+
+.learnisito:hover{
+    transform: scale(1.05);
+}
+
+.menulink {
+    position: absolute;
+    color: white;
+    top: 4700px;
+    left: 680px;
+    font-size: 30px;
+}
+
+.menulink::after {
+    content: "";
+    position: absolute;
+    bottom: -5px; 
+    left: 0;
+    width: 50%; 
+    height: 2px;
+    background-color: #ed844d;
+}
+
+.ourservice {
+    position: absolute;
+    color: white;
+    top: 4700px;
+    left: 950px;
+    font-size: 30px;
+}
+
+.ourservice::after {
+    content: "";
+    position: absolute;
+    bottom: -5px; 
+    left: 0;
+    width: 50%; 
+    height: 2px;
+    background-color: #ed844d;
+}
+
+.information {
+    position: absolute;
+    color: white;
+    top: 4700px;
+    left: 1280px;
+    font-size: 30px;
+}
+
+.information::after {
+    content: "";
+    position: absolute;
+    bottom: -5px; 
+    left: 0;
+    width: 50%; 
+    height: 2px;
+    background-color: #ed844d;
+}
+
+.contactus {
+    position: absolute;
+    color: white;
+    top: 4700px;
+    left: 1600px;
+    font-size: 30px;
+}
+
+.contactus::after {
+    content: "";
+    position: absolute;
+    bottom: -5px; 
+    left: 0;
+    width: 50%; 
+    height: 2px;
+    background-color: #ed844d;
+}
+
+.menudato {
+    position: absolute;
+    color: white;
+    top: 4800px;
+    left: 680px;
+    font-size: 30px;
+    line-height: 40px; 
+}
+
+.ourservicedato {
+    position: absolute;
+    color: white;
+    top: 4800px;
+    left: 900px;
+    font-size: 30px;
+    line-height: 40px; 
+}
+
+.informationdato {
+    position: absolute;
+    color: white;
+    top: 4800px;
+    left: 1250px;
+    font-size: 30px;
+    line-height: 40px; 
+}
+
+.contactusdato {
+    color: white;
+    font-size: 30px;
+}
+
+.circles-container {
+    text-align: center;
+    position: absolute;
+    top: 4800px; 
+    left: 1700px; 
+    transform: translateX(-50%); 
+}
+
+.circle {
+    width: 30px; 
+    height: 30px; 
+    background-color: #ed844d; 
+    border-radius: 50%; 
+    display: inline-block; 
+    margin: 10px; 
+}
