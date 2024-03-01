@@ -8,8 +8,7 @@
     background-color: #1e1d2b;
     width: 1920px;
     height: 5500px;
-    font-family: popins;
-    
+    font-family: 'Poppins', sans-serif;    
 }
 
 .food{
@@ -119,7 +118,7 @@
     position: absolute;
     color: #ed844d;
     top: 1350px;
-    left: 1300px;
+    left: 1200px;
     font-size: 50px;
     
 
@@ -129,7 +128,7 @@
     position: absolute;
     color: white;
     top: 1400px;
-    left: 1300px;
+    left: 1200px;
     font-size: 80px;
 }
 
@@ -137,7 +136,7 @@
     position: absolute;
     color: white;
     top: 1660px;
-    left: 1300px;
+    left: 1200px;
     font-size: 40px;
 }
 
@@ -145,7 +144,7 @@
     position: absolute;
     color: white;
     top: 1900px;
-    left: 1300px;
+    left: 1200px;
     font-size: 35px;
     background-color: #ed844d;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
