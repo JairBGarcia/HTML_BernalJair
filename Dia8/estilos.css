@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.barra-navegacion {
+background-color: #333;
+}
+
+ul { 
+margin: 0;
+padding: 0;
+text-align: center;
+}
+
+li {
+display: inline-block; /* Permite que se muestren uno al lado del otro para que se comporten como bloques */
+margin: 0 20px; /* Espacio uniforme entre elementos */
+}
+
+a {
+display: block;
+text-decoration: none;
+color: white;
+padding: 20px 40px;
+transition: background-color 0.2s; /* Transición suave */
+}
+
+.inicio a:hover {
+background-color: #e3ff47; 
+}
+
+.acerca-de a:hover {
+background-color: #0eb1f1; 
+}
+
+.servicios a:hover {
+background-color: #d51efa; 
+}
+
+.contacto a:hover {
+background-color: #ff0000; 
+}
+
+.articulos-destacados {
+display: flex;
+justify-content: space-between; /* Distribuir los elementos por el eje principal */
+flex-wrap: wrap; /* los elementos sin espacio se ajusten en una sola fila o columna */
+padding: 20px;
+}
+
+.articulo { 
+    flex: 0 1 calc(33.33% - 20px);
+    margin-bottom: 20px;
+}
+
+.articulo img {
+    width: 100%;
+    height: auto;
+    cursor: pointer;
+}
+
+.articulo h2 {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.articulo :hover{
+    transform: scale(1.05);
+}
