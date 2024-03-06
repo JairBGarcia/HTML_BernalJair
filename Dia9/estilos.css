@@ -2,6 +2,7 @@ body{
     background-color: black;
   }
   
+  /*Definicion de areas*/
   .area1{
     grid-area: avion;
   }
@@ -9,7 +10,7 @@ body{
     grid-area: img1;
   }
   .area3{
-    grid-area: plastic;
+    grid-area: noplastic;
   }
   .area4{
     grid-area: dino
@@ -18,7 +19,7 @@ body{
     grid-area: img3;
   }
   .area6{
-    grid-area: dechill;
+    grid-area: parche;
   }
   .area7{
     grid-area: img2;
@@ -28,11 +29,11 @@ body{
     grid-template-areas: 
       'avion avion img1 img1'
       'avion avion img1 img1'
-      'plastic plastic img1 img1'
+      'noplastic noplastic img1 img1'
       'dino dino dino dino'
       'img3 img3 img2 img2'
-      'dechill dechill img2 img2';
-    grid-template-columns: repeat(4, 1fr); 
+      'parche parche img2 img2';
+    grid-template-columns: repeat(4, 1fr);  /*Define la cantidad y tamaño de las columnas*/
     gap:10px;
   }
   
