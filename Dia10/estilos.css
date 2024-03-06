@@ -1,0 +1,9 @@
+.fondo{
+    width: 1920px;
+    height: 1080px;
+}
+
+.casita{
+    position: absolute;
+    width: 1000px;
+}
