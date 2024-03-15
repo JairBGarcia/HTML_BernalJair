@@ -1,0 +1,600 @@
+###Importante HTML###
+
+
+###Etiquetas de texto
+
+    <h1> a <h6>: Encabezados de diferentes niveles, donde <h1> es el más importante y <h6> el menos importante.
+    <p>: Define un párrafo de texto.
+    <strong>: Hace que el texto sea más fuerte o importante (generalmente se muestra en negrita).
+    <em>: Emfatiza el texto (generalmente se muestra en cursiva).
+    <u>: Subraya el texto.
+    <del>: Indica texto eliminado.
+    <ins>: Indica texto insertado.
+    <sup>: Define texto que debe mostrarse en superíndice.
+    <sub>: Define texto que debe mostrarse en subíndice.
+    <blockquote>: Define una cita larga o un bloque de texto citado.
+    <q>: Define una cita corta.
+    <abbr>: Define una abreviatura.
+    <cite>: Define el título de una obra citada.
+    <code>: Define código de computadora.
+    <pre>: Define texto preformateado (generalmente con espacios y saltos de línea conservados).
+    <span>: Define una sección de texto genérica.
+    <div>: Define una división o sección de una página
+
+###Etiquetas de agrupacion
+
+    <div>: Define una división o sección genérica de un documento.
+    <span>: Define una sección genérica en línea de un documento.
+    <header>: Define la cabecera de un documento o una sección.
+    <footer>: Define el pie de página de un documento o una sección.
+    <nav>: Define una sección de navegación.
+    <main>: Define el contenido principal de un documento.
+    <section>: Define una sección en un documento.
+    <article>: Define un artículo independiente en un documento.
+    <aside>: Define contenido que está relacionado pero no es parte principal del flujo del documento.
+    <figure>: Define contenido multimedia, como imágenes, videos o gráficos, y su leyenda asociada.
+    <figcaption>: Define la leyenda de una figura definida con la etiqueta <figure>.
+    <details>: Define detalles adicionales o información que se puede mostrar u ocultar.
+    <summary>: Define un resumen visible de los detalles definidos con la etiqueta <details>.
+    <blockquote>: Define una sección de cita larga o un bloque de texto citado.
+    <cite>: Define el título de una obra citada dentro de una etiqueta <blockquote>.
+
+###Etiquetas de listas
+
+    Listas Ordenadas
+    <ol>: Define una lista ordenada.
+    <li>: Define un ítem de la lista.
+
+        <ol>
+            <li>Elemento 1</li>
+            <li>Elemento 2</li>
+            <li>Elemento 3</li>
+        </ol>
+
+
+    Listas Desordenadas (<ul>)
+    <ul>: Define una lista desordenada.
+    <li>: Define un ítem de la lista.
+
+        <ul>
+            <li>Elemento 1</li>
+            <li>Elemento 2</li>
+            <li>Elemento 3</li>
+        </ul>
+
+
+    Listas de Definición (<dl>)
+    <dl>: Define una lista de definición.
+    <dt>: Define un término de la lista de definición.
+    <dd>: Define la descripción del término.
+
+        <dl>
+            <dt>Término 1</dt>
+            <dd>Descripción 1</dd>
+            <dt>Término 2</dt>
+            <dd>Descripción 2</dd>
+            <dt>Término 3</dt>
+            <dd>Descripción 3</dd>
+        </dl>
+
+
+
+###Etiquetas de tablas
+
+    <table>: Define una tabla.
+    <tr>: Define una fila en la tabla.
+    <th>: Define una celda de encabezado de columna o fila en la tabla.
+    <td>: Define una celda de datos en la tabla.
+    <caption>: Define el título o la descripción de la tabla.
+
+###Etiquetas de multimedia
+
+    Imágenes (<img>)
+    <img>: Inserta una imagen en el documento HTML.
+    src: Especifica la ruta de la imagen.
+    alt: Proporciona un texto alternativo para la imagen (importante para accesibilidad).
+        <img src="imagen.jpg" alt="Descripción de la imagen">
+
+
+    Videos (<video>)
+    <video>: Inserta un archivo de video en el documento HTML.
+    src: Especifica la ruta del archivo de video.
+    controls: Agrega controles de reproducción al video (reproducir, pausar, etc.).
+        <video src="video.mp4" controls></video>
+
+
+    Audio (<audio>)
+    <audio>: Inserta un archivo de audio en el documento HTML.
+    src: Especifica la ruta del archivo de audio.
+    controls: Agrega controles de reproducción al audio (reproducir, pausar, etc.).
+        <audio src="audio.mp3" controls></audio>
+
+
+    <iframe>: Inserta un marco en línea en el documento HTML, que puede contener otro documento HTML incrustado, como un mapa de Google Maps o un video de YouTube.
+    src: Especifica la ruta del documento incrustado.
+    width y height: Especifican el ancho y la altura del marco.
+        <iframe src="https://www.youtube.com/embed/video_id" width="560" height="315"></iframe>
+
+
+###Etiquetas de sección
+
+    Secciones principales:
+        <header>: Define la cabecera de un documento o de una sección.
+        <footer>: Define el pie de página de un documento o de una sección.
+        <nav>: Define una sección de navegación.
+        <main>: Define el contenido principal de un documento.
+        <section>: Define una sección genérica en un documento.
+        <article>: Define un artículo independiente en un documento.
+
+    Secciones de agrupación:
+        <div>: Define una división o sección genérica de un documento.
+        <span>: Define una sección genérica en línea de un documento.
+
+            <header>
+                <h1>Encabezado del sitio</h1>
+                <nav>
+                    <ul>
+                        <li><a href="#">Inicio</a></li>
+                        <li><a href="#">Acerca de</a></li>
+                        <li><a href="#">Contacto</a></li>
+                    </ul>
+                </nav>
+            </header>
+
+            <main>
+                <section>
+                    <h2>Sección 1</h2>
+                    <p>Contenido de la sección 1...</p>
+                </section>
+                
+                <section>
+                    <h2>Sección 2</h2>
+                    <p>Contenido de la sección 2...</p>
+                </section>
+            </main>
+
+            <footer>
+                <p>Pie de página</p>
+            </footer>
+
+   
+###Formularios
+
+ Formulario (<form>)
+        <form>: Define un formulario que permite al usuario enviar datos al servidor.
+        action: Especifica la URL del script del lado del servidor que procesará los datos del formulario.
+        method: Especifica el método HTTP utilizado para enviar los datos del formulario (GET o POST).
+    Elementos de entrada (<input>)
+        <input>: Define un campo de entrada genérico.
+        type: Especifica el tipo de campo de entrada (text, password, checkbox, radio, etc.).
+        name: Nombre del campo de entrada, utilizado para identificar los datos cuando se envía el formulario.
+        placeholder: Texto de marcador de posición dentro del campo de entrada.
+        value: Valor inicial del campo de entrada.
+    Área de texto (<textarea>)
+        <textarea>: Define un área de texto de múltiples líneas para la entrada de texto.
+        name: Nombre del área de texto.
+        rows: Número de filas visibles del área de texto.
+        cols: Número de columnas visibles del área de texto.
+    Botón (<button>)
+        <button>: Define un botón que se puede hacer clic.
+        type: Especifica el tipo de botón (submit, reset, o button).
+        name: Nombre del botón.
+        value: Valor del botón.
+    Selección (<select>)
+        <select>: Define un menú desplegable.
+        <option>: Define una opción dentro del menú desplegable.
+        value: Valor de la opción que se enviará al servidor cuando se seleccione.
+    Casillas de verificación (<input type="checkbox">)
+        <input type="checkbox">: Define una casilla de verificación que permite al usuario seleccionar una o varias opciones.
+        Botones de radio (<input type="radio">)
+        <input type="radio">: Define un botón de opción que permite al usuario seleccionar una opción de un conjunto.
+    Etiqueta (<label>)
+        <label>: Define una etiqueta para un elemento de formulario.
+        for: Especifica el id del elemento de formulario al que está asociada la etiqueta.
+
+
+
+###Importante CSS###
+
+###background
+
+    #Fondo de color sólido:
+    Puedes establecer un color sólido como fondo de un elemento usando la propiedad background-color.
+
+    .elemento {
+        background-color: #ff0000; /* Rojo */
+    }
+
+    #Fondo de imagen:
+    Puedes usar una imagen como fondo de un elemento con la propiedad background-image.
+
+    .elemento {
+        background-image: url('ruta/a/imagen.jpg');
+    }
+
+    #Fondo con repetición:
+    Puedes especificar si la imagen de fondo debe repetirse en la dirección horizontal, vertical o en ambas utilizando la propiedad background-repeat.
+
+    .elemento {
+        background-image: url('ruta/a/imagen.jpg');
+        background-repeat: repeat-x; /* Se repite solo horizontalmente */
+    }
+
+    #Fondo con posición:
+    Puedes controlar la posición inicial de la imagen de fondo utilizando la propiedad background-position.
+
+    .elemento {
+        background-image: url('ruta/a/imagen.jpg');
+        background-position: center top; /* Posición centrada en la parte superior */
+    }
+
+    #Fondo con tamaño:
+    Puedes especificar el tamaño de la imagen de fondo utilizando la propiedad background-size.
+
+    .elemento {
+        background-image: url('ruta/a/imagen.jpg');
+        background-size: cover; /* La imagen cubrirá todo el elemento */
+    }
+
+    
+    #Fondo con degradado:
+    Puedes crear un fondo con degradado utilizando la propiedad background-image con el valor linear-gradient.
+
+    
+    .elemento {
+        background-image: linear-gradient(to bottom, #ff0000, #00ff00); /* Degradado de rojo a verde */
+    }
+
+###ANIMACIONES
+
+    ##Definición de la animación
+
+    Para definir una animación en CSS, utilizamos la regla @keyframes. Esta regla especifica los estilos que el elemento animado tendrá en diferentes etapas de la animación.
+
+        @keyframes nombreDeLaAnimacion {
+        0% {
+            /* Estilos iniciales */
+        }
+        100% {
+            /* Estilos finales */
+        }
+        }
+
+    ##Aplicación de la animación
+
+    Después de definir la animación, la aplicamos al elemento deseado utilizando la propiedad animation.
+
+        .elementoAnimado {
+        animation-name: nombreDeLaAnimacion;
+        animation-duration: 2s; /* Duración de la animación en segundos */
+        animation-timing-function: ease; /* Función de temporización (opcional) */
+        animation-delay: 0s; /* Retraso antes de que comience la animación (opcional) */
+        animation-iteration-count: infinite; /* Número de repeticiones (opcional) */
+        animation-direction: alternate; /* Dirección de la animación (opcional) */
+        }
+
+    ##Ejemplo de animación de desplazamiento horizontal
+
+    Supongamos que queremos animar un elemento para que se desplace horizontalmente de izquierda a derecha y luego vuelva a su posición original.
+
+        @keyframes desplazar {
+        0% {
+            transform: translateX(0);
+        }
+        100% {
+            transform: translateX(200px);
+        }
+        }
+
+        .elementoAnimado {
+        animation-name: desplazar;
+        animation-duration: 2s;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+        }
+
+
+##Selectores de elementos:
+    elemento: Selecciona todos los elementos de un tipo específico.
+    .clase: Selecciona todos los elementos con una clase específica.
+    #id: Selecciona un elemento con un ID específico.
+    elemento, elemento: Selecciona múltiples elementos.
+    elemento > elemento: Selecciona un elemento hijo directo.
+    elemento + elemento: Selecciona un elemento adyacente inmediato.
+    elemento ~ elemento: Selecciona elementos hermanos.
+##Unidades de medida:
+    px: Píxeles.
+    %: Porcentaje.
+    em: Relativo al tamaño de la fuente del elemento.
+    rem: Relativo al tamaño de la fuente del elemento raíz.
+    vh: Porcentaje de la altura de la ventana.
+    vw: Porcentaje del ancho de la ventana.
+##Pseudoclases y pseudoelementos:
+    :hover: Selecciona un elemento cuando se pasa el cursor sobre él.
+    :active: Selecciona un elemento cuando está activo.
+    :focus: Selecciona un elemento cuando recibe el foco.
+    :first-child: Selecciona el primer hijo de un elemento.
+    :last-child: Selecciona el último hijo de un elemento.
+    ::before: Crea un pseudoelemento antes del contenido del elemento.
+    ::after: Crea un pseudoelemento después del contenido del elemento.
+##Funciones de color:
+    rgb(): Define un color utilizando valores de rojo, verde y azul.
+    rgba(): Define un color con transparencia utilizando valores de rojo, verde, azul y alfa.
+    hsl(): Define un color utilizando tono, saturación y luminosidad.
+    hsla(): Define un color con transparencia utilizando tono, saturación, luminosidad y alfa.
+##Filtros:
+    filter: Aplica efectos visuales (brillo, saturación, desenfoque, etc.) a un elemento.
+
+###Parte de Ayuda###
+
+###HTML BARRA
+
+ <section class="white">
+        <div class="barra">
+            <div class="añadir">
+                <img class="anadir" src="./imgs/añadir.png" alt="1">
+                <a class="textoañadir" href="./pagina1.html" target="_parent" >Añadir</a>
+            </div>
+            <div class="Refrescar">
+                <div class="Refrescar">
+                    <img class="fotorefrescar" src="./imgs/refrescar.png" alt="2">
+                    <a class="textorefrescar" href="./pagina1.html" target="_parent">Refrescar</a>
+                </div>
+                <div class="eliminar">
+                    <img class="delete" src="./imgs/eliminar.png" alt="3">
+                    <a class="textoeliminar" href="./pagina1.html" target="_parent">Eliminar</a>
+                </div>
+                <div>
+                    <img class="icono" src="./imgs/logobarra.png" alt="4">
+                </div>
+                <div>
+                    <img class="report" src="./imgs/reportar.png" alt="4">
+                    <a class="textoreporte" href="./pagina1.html" target="_parent">Reportar</a>
+                  </div>
+                <div class="Ayuda">
+                    <img class="help" src="./imgs/ayuda.png" alt="5">
+                    <a class="textoayuda" href="./pagina1.html" target="_parent">Ayuda</a>
+                </div>
+                <div>
+                    <img class="config" src="./imgs/configuracion.png" alt="6">
+                </div>
+                <div>
+                    <img class="noti" src="./imgs/notificaciones.png" alt="7">
+                </div>
+                <div class="menu">
+                    <label for="toggle" class="majo">
+                        <img src="./imgs/menu.png" alt="8">
+                    </label>
+                    <input type="checkbox" id="toggle" class="toggle">
+                    <div class="menu-content">
+                        <a href="./pagina1.html">Sign out</a>
+                    </div>
+                </div>
+                
+            </div>
+             <div class="linea">
+
+             </div>   
+        </div>
+
+    ###CSS BARRA
+
+    section.white{
+    position: relative;
+    margin: 0;
+    width: 100vw;
+    height: 10vh;
+}
+.barra {
+    position: absolute;    
+    width: 100vw; 
+    height: 7.5vh; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+}
+div.linea{
+    position: absolute;
+    margin: 0%;
+    width: 100vw; 
+    border: 2px solid gray;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    transform: translateY(2.08vw);
+}
+.anadir{
+    position: absolute;
+    top: 1.25vw;
+    left: 9.79vw;
+    height: auto;
+    width: 1.5vw;
+}
+
+.textoañadir {
+    position: absolute;
+    text-decoration: none;
+    color: black;
+    font-family: 'myriad pro regular';
+    font-size: 1.3vw;
+    top: 1.1vw;
+    left: 12vw;
+}
+
+.fotorefrescar {
+    position: absolute;
+    top: 1.3vw;
+    left: 22.03vw;
+    height: auto;
+    width: 1.4vw;
+    
+}
+
+.textorefrescar{
+    position: absolute;
+    text-decoration: none;
+    color: black;
+    font-family: 'myriad pro regular';
+    font-size: 1.3vw;
+    top: 1.2vw;
+    left: 23.95vw;
+}
+
+.delete{
+    position: absolute;
+    top: 1.2vw;
+    left: 35.31vw;
+    width: 1.3vw;
+    height: auto;
+}
+
+.textoeliminar{
+    position: absolute;
+    text-decoration: none;
+    color: black;
+    font-family: 'myriad pro regular';
+    font-size: 1.5vw;
+    top: 1.2vw;
+    left: 37.13vw;
+}
+
+.icono{
+    position: absolute;
+    left: 53vw;
+    top: 0.8vw;
+    height: 2vw;
+}
+
+.report{
+    position: absolute;
+    height: 1.89vw;
+    top: 1vw;
+    left:63.43vw;
+}
+
+.textoreporte{
+    position: absolute;
+    text-decoration: none;
+    color: black;
+    font-family: 'myriad pro regular';
+    font-size: 1.2vw;
+    left: 65.8vw;
+    top: 1.2vw;
+}
+
+.help{
+    position: absolute;
+    left: 77.76vw;
+    height: auto;
+    width: 1.85vw;
+    top: 1vw;
+}
+
+.textoayuda{
+    position: absolute;
+    text-decoration: none;
+    color: black;
+    font-family: 'myriad pro regular';
+    left: 80.20vw;
+    top: 1.2vw;
+    font-size: 1.2vw;
+}
+
+.config{
+    position: absolute;
+    top: 1.45vw;
+    left: 92.23vw;
+    height: auto;
+    width: 1.09vw;
+}
+
+.noti{
+    position: absolute;
+    top: 1.55vw;
+    left: 94.14vw;
+    height: auto;
+    width:  0.98vw;
+}
+
+.menu {
+    position: absolute;
+    top: 0.5vw;
+    left: 96vw;
+    display: inline-block;
+}
+
+.majo img {
+    width: 2.6vw;
+    height: auto;
+    cursor: pointer;
+}
+
+.toggle {
+    display: none;
+}
+
+.menu-content {
+    display: none;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background-color: #fff;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    z-index: 1;
+    font-size:1vw;
+    white-space: nowrap;
+}
+
+.toggle:checked + .menu-content {
+    display: block;
+}
+
+.menu-content a {
+    display: inline-block;
+    text-decoration: none;
+    color: #000;
+    padding: 0.5rem 1rem;
+}
+
+.menu-content a:hover {
+    background-color: #f2f2f2;
+}
+
+
+
+###CSS BOTON 
+
+.boton{
+    position: absolute;
+    display: inline-block;
+    text-align: center;
+    left: 68vw;
+    top: 67vh;
+    width: 10.15vw;
+    height: 2.39vw;
+    background-color: #fc6d2d;
+    color: white;
+    text-decoration: none;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    line-height: 2.39vw;
+    font-size: 1.04vw;
+}
+
+###HTML BOTON
+
+    <a class="boton" href="./pagina1.html">Añadir</a>
+
+###MEDIA QUERY IPHONE
+
+@media only screen 
+  and (min-device-width: 390px) 
+  and (max-device-width: 844px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+    }
